@@ -1,0 +1,5 @@
+FROM postgres:15.1-bullseye
+
+# EXPOSE 5432:5432
+
+ENV POSTGRES_PASSWORD=root333 POSTGRES_USER=cineasy POSTGRES_DB=cineasy
